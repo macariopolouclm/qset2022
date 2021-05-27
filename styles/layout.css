@@ -38,10 +38,10 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
-.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row1, .row1 a{color:#FFFFFF; background-color:#333333;} /*header*/
 .row2{color:#979797; background-color:#FFFFFF;}
-.row2 a{color:#FF9900; background-color:#FFFFFF;}
-.row3, .row3 a{color:#C0BAB6; background-color:#333333;}
+.row2 a{color:#bd2ad4; background-color:#FFFFFF;}
+.row3, .row3 a{color:#FFFFFF; background-color:#333333;}/*header*/
 .row4, .row4 a{color:#979797; background-color:#FFFFFF;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
@@ -54,7 +54,8 @@ h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:20px; font-weight:normal; 
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header, #header a{color:#C0BAB6; background-color:#333333;}
+#header, #header a{color:#FFFFFF; background-color:#333333;}/*header*/
+#header h2 {color: #C0BAB6;}
 
 #header #hgroup{width:960px; float:left; padding:10px 0px 0px 0px;}
 #header #hgroup h1, #header #hgroup h2{}
@@ -67,8 +68,8 @@ img#ieeelogo{float:right !important; width:120px !important; margin: 00px 0px 0p
 #header nav ul{margin-top:20px;}
 #header nav li{display:inline; margin-right:15px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
-#header nav a{color:#C0BAB6; background-color:#333333;}
-#header nav a:hover{color:#FF9900; background-color:#333333;}
+#header nav a{color:#FFFFFF; background-color:#333333;}/*header*/
+#header nav a:hover{color:#bd2ad4; background-color:#333333;}/*primary*//*header*/
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
@@ -86,8 +87,8 @@ img#ieeelogo{float:right !important; width:120px !important; margin: 00px 0px 0p
 #container #left_column nav ul{margin:0; padding:0; list-style:none;}
 #container #left_column nav li{margin:0 0 3px 0; padding:0;}
 #container #left_column nav li.last{margin-bottom:0;}
-#container #left_column nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
-#container #left_column nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+#container #left_column nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../images/purple_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#container #left_column nav a:hover{color:#bd2ad4; background-color:#FFFFFF;}/*primary*/
 
 /* ------Main Content-----*/
 
@@ -98,7 +99,7 @@ img#ieeelogo{float:right !important; width:120px !important; margin: 00px 0px 0p
 #container #content section article address{font-size:10px; font-style:normal;}
 #container #content section article time{font-size:10px;}
 #container #content section article .tags{display:block; padding:5px; color:#979797; background-color:#ECECEC; font-style:italic;}
-#container #content section article .tags a{color:#FF9900; background-color:#ECECEC;}
+#container #content section article .tags a{color:#bd2ad4; background-color:#ECECEC;}/*primary*/
 
 #container #content #organizers{}
 #container #content #organizers ul{margin:0; padding:0; list-style:none;}
@@ -129,4 +130,4 @@ article {
 }
 
 
-.page_selected{color:#FF9900 !important;}
+.page_selected{color:#bd2ad4 !important;} /*primary*/
