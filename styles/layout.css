@@ -131,3 +131,27 @@ article {
 
 
 .page_selected{color:#bd2ad4 !important;} /*primary*/
+
+
+
+
+.ellipsis {
+	color:#bd2ad4;
+}
+.ellipsis-content,
+.ellipsis-toggle input {
+  display: none;
+}
+.ellipsis-toggle {
+  cursor: pointer;
+}
+/**
+Checked State
+**/
+
+.ellipsis-toggle input:checked + .ellipsis {
+  display: none;
+}
+.ellipsis-toggle input:checked ~ .ellipsis-content {
+  display: inline;
+}

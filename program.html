@@ -68,9 +68,9 @@
        
        <br/>
        <hr/>
-       <p>coming soon</p>
+       <p>to be completed...</p>
        
-       <!-- <article>
+       <article>
        	  <hr/>
           <h3 id="session1">Session 1. 10:45 - 12:15</h3>
           	<ul>
@@ -78,12 +78,25 @@
           			<p><i>Workshop presentation by the <a href="./organizers.html">organizers</a></i></p>
           		</li>
           		<li><b>11:00-11:15</b> <br/><b>Inside the Quantum Software Engineering & Programming <a href="https://www.aquantum.es/manifesto/">Manifesto</a></b>
-          			<p><a href="./speakers.html#speaker1">Ricardo Pérez del Castillo</a></p>
+          			<p><a href="./speakers.html#speakerPerezCastillo">Ricardo Pérez del Castillo</a></p>
           			<p><i>This talk provide an outlook to the recent <b>Talavera Manifesto</b> on Quantum Software Engineering & Programming, its main commitments and call for action</i></p>
           		</li>
-          		<li><b>11:15-12:15</b> <br/><b>Keynote. "Utilizing NISQ devices for evaluation quantum algorithms"</b>
-          			<p><a href="./speakers.html#keynote1">Eleanor G. Rieffel</a></p>
-          			<p>Senior Research Scientist. Lead, Quantum Artificial Intelligence Laboratory (QuAIL). <br/> NASA Ames Research Center</p>
+          		<li><b>11:15-12:15</b> <br/><b>Keynote. "Quantum Service Oriented Computing. Current Landscape and Challenges"</b>
+          			<p><a href="./speakers.html#keynote1">Juan Manuel Murillo</a></p>
+          			<p>Professor of Advanced Software Engineering Techniques at the University of Extremadura.</p>
+          			<p><i>The last two decades have meant a radical change in the way information systems are built and consumed. Indeed, the development of the Internet and the cloud computing paradigm has allowed developers to create information systems at different service levels: infrastructure (IaaS), platform (PaaS) and software (SaaS). Service Oriented Computing (SOC) has enabled the construction of systems based on the composition of services deployed at different levels.
+					<label class="ellipsis-toggle">
+					    <input type="checkbox" />
+					    <span class="ellipsis"> read more ...</span>
+					    <br/>
+					    <span class="ellipsis-content">
+					    <br/>
+						The rise of quantum computing now poses a new challenge for cloud computing and SOC. Future information systems will be hybrids made up of computing elements running both classical and quantum programs that interact with each other. Thanks to the progress of the last two decades, we know that a viable way to integrate such systems is to encapsulate the different computing elements as services.  However, while it is now natural to build complex classical information systems by composing services, the procedures for deploying and integrating quantum services are not yet defined. The reasons for the different treatment of quantum and classical services have multiple causes. On the one hand, different vendors offer their cloud-deployed architectures as IaaS in which quantum programs can be deployed and executed. However, the differences between the architectures and platforms of the different vendors prevent the construction of quantum programs that could be deployed later on a different vendor infrastructure. On the other hand, deploying a quantum program on a current quantum computer as a service is not possible. First, the operating system of quantum computers does not yet support the possibility of having multiple active programs at the same time, so it makes it impossible to replicate the common situation in classical SOC of having several services provided by the same server. This fact supposes a huge limitation for using quantum infrastructures and platforms. In addition, a quantum service would require encapsulated code to be deployed and actively waiting for interactions. We are still far from considering this kind of behavior in quantum computing entities. Thus, having quantum services deployable in different providers and that can be consumed by different users still seems a remote possibility. Finally, the inherent characteristics of quantum computing such as entanglement, superposition or collapse are not addressed by either Cloud Computing or classical SOC. New mechanisms will be needed to handle these features, for example to entangle qbits in a service, in its different instances, in its different executions, or simply to make service orchestration possible without quantum services collapsing.
+						<br/><br/>
+						This keynote provides an overview of the current state of development of Quantum Service Oriented Computing, the difficulties it faces in achieving hybrid classical-quantum information systems, and the efforts being made to overcome these challenges.
+						</span>
+					</label>
+          			</i></p>
           		</li>
           	</ul>
           	<hr/>
@@ -91,40 +104,43 @@
           	<hr/>
           	<h3 id="session2">Session 2. 13:00 - 14:30</h3>
           	<ul>
-          		<li><b>13:00-13:30</b><br/><b>A Roadmap for Quantum Software Engineering:  applying the lessons learned from the classics</b>
-          			<p><a href="./speakers.html#speaker8">Juan Manuel Murillo</a></p>
-          			<p><i>Quantum Computing is one of the emerging areas of computing that currently generates more expectations. However, there are many doubts about its actual future projection. On the one hand, the industry shows reluctance to invest in it. The main reasons are the high costs of the hardware, together with the fact that current commercial quantum computers offers a potential that goes little beyond experimentation. On the other hand, there is controversy in the research community about the feasibility of creating and programming powerful and reliable quantum computers. The possibility of having reliable hardware with a reasonable number of Qbits seems still distant. Finally, current quantum programming tools are still at almost logic gate level, which limits the possibility of creating real complex quantum software systems. If we look back in time, this situation is reminiscent of the Software Crisis experienced by classical computing in the 60's. This talk starts from this analogy and, analyzing the advances and lessons learned in the field of Software Engineering in the last 60 years, raises the directions that could help to develop the future Quantum Software Engineering.</i></p>
+          		<a style="float:right; margin-top:-10px;" href="https://www.quantumpath.es/"><img src="./images/logo/logo_qpath.png" /></a>
+          		<li><b>13:00-13:30</b><br/><b>QuantumPath´s Annealer Compositor </b>
+          			<p><a href="./speakers.html#speakerHevia">Jose Luis Hevia</a>, <a href="./speakers.html#speakerPeterssen">Guido Peterssen</a>, <a href="./speakers.html#speakerMurina">Ezequiel Murina</a> and <a href="./speakers.html#speakerPiattini">Mario Piattini</a></a></p>
+          			<p><i>Among the various challenges that quantum computing faces to become a widespread reality are, on the one hand, the need to research and apply the existing software engineering processes; and on the other hand, the shortage of specialized workforce. <a href="https://www.quantumpath.es/">QPath</a>™ is a tool that solves these two challenges, in addition to presenting other advantages for the development of hybrid information systems. In this paper we present the Annealer Compositor that facilitates the definition and execution of annealing algorithms in either quantum annealing or digital annealing computers.</i></p>
           		</li>
-          		<li><b>13:30-14:00</b> <br/><b>Off-the-self components for Quantum Programming and Testing</b>
-          			<p>Cláudio Gomes, Daniel Fortunato, <a href="./speakers.html#speaker2">João Paulo Fernandes</a> and <a href="./speakers.html#speaker3">Rui Abreu</a></p>
-          			<p><i>In this position paper, we argue that readily available components are much needed as central contributions towards not only enlarging the community of quantum computer programmers, but also in order to increase their effi ciency and eff ectiveness. We describe the work we intend to do towards providing such components, namely by developing and making available libraries of quantum algorithms and data structures, and libraries for testing quantum programs. We fi nally argue that Quantum Computer Programming is such an eff ervescent area that synchronization eff orts and combined strategies within the community are demanded to shorten the time frame until quantum advantage is observed and can be explored in practice.</i></p>
+          		<li><b>13:30-14:00</b> <br/><b>...</b>
+          			<p>...</p>
+          			<p><i>...</i></p>
           		</li>
-          		<li><b>14:00-14:30</b> <br/><b>Software tooling for rapid experimentation in quantum computing with Orquestra</b>
-          			<p><a href="./speakers.html#speaker9">Ntwali Bashige Toussaint</a></p>
-          		</li>          		
+          		<li><b>14:00-14:30</b> <br/><b>...</b>
+          			<p>...</p>
+          			<p><i>...</i></p>
+          		</li>     		
           	</ul>
           	<hr/>
           	<p class="tags"><b>14:30 - 15:15</b> Break & Exhibits</p>
           	<hr/>
           	<h3 id="session3">Session 3. 15:15 - 16:45</h3>
           	<ul>
-          		<li><b>15:15-15:45</b> <br/><b>Requirements for Quantum Software Platforms</b>
-          			<p><a href="./speakers.html#speaker4">Jose Luis Hevia</a></p>
+          		<li><b>15:15-15:45</b> <br/><b>...</b>
+          			<p>...</p>
+          			<p><i>...</i></p>
           		</li>          		
-          		<li><b>15:45-16:15</b><br/><b>Generalizing an Exactly-1 SAT Solver for Arbitrary Numbers of Variables, Clauses, and K</b>
-          			<p><a href="./speakers.html#speaker7">Francesco Piro</a>, Mehrnoosh Askarpour and Elisabetta Di Nitto</p>
-          			<p><i>Quantum computers promise to allow for great improvements in the solution of <i>k</i>-SAT problem, which is one of the fundamental problems of computational logic. In order to evaluate this possibility, in this work, we generalized a pre-existing quantum 3-SAT solver to the most general case for the number of variables, clauses, and <i>k</i>, using the IBM Qiskit library. We extended basic gates and steps of the underlying algorithm to reduce the number of used qubits and gates, in order to deal with the decoherence problem. We tested our solution on complex instances of <i>k</i>-SAT, which preserved the exponential speedup promised by Grover algorithm </i></p>
+          		<li><b>15:45-16:15</b> <br/><b>...</b>
+          			<p>...</p>
+          			<p><i>...</i></p>
           		</li>
-          		<li><b>16:15-16:45</b> <br/><b>A Tool for Quantum Software Evolution</b>
-          			<p><a href="./speakers.html#speaker5">Luis Jiménez-Navajas</a> and <a href="./speakers.html#speaker6">Aurelio Martínez Corchano</a></p>
-          			<p><i>Organizations need to adapt their classical information systems alongside new specific quantum applications, evolving toward classical-quantum information systems. Today, there are not specific methods for dealing with this challenge. This talk discusses how reengineering, and more specifically software modernization using model-driven engineering principles, could be useful for migrating classical systems toward hybrid ones.</i></p>
+          		<li><b>16:15-16:45</b> <br/><b>...</b>
+          			<p>...</p>
+          			<p><i>...</i></p>
           		</li>
           	</ul>
           	<hr/>
           	<p class="tags"><b>16:55-17:00</b> Closure</p>
             <hr/>
             <i>* the program is scheduled in MST, Mountain Standard Time Zone</i> 
-        </article> -->
+        </article> 
         
       </section>
 
