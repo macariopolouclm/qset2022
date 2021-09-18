@@ -155,3 +155,7 @@ Checked State
 .ellipsis-toggle input:checked ~ .ellipsis-content {
   display: inline;
 }
+
+.talkTitle b{
+	font-size: 15px;
+}
