@@ -156,6 +156,6 @@ Checked State
   display: inline;
 }
 
-.talkTitle b{
+.talkTitle>b{
 	font-size: 15px;
 }
