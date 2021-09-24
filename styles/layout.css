@@ -137,6 +137,9 @@ article {
 
 .ellipsis {
 	color:#bd2ad4;
+	float:right;
+	font-size:smaller;
+	
 }
 .ellipsis-content,
 .ellipsis-toggle input {
